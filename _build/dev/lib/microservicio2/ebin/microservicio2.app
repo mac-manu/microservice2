@@ -1,0 +1,10 @@
+{application,microservicio2,
+             [{optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,plug,plug_cowboy]},
+              {description,"microservicio2"},
+              {modules,['Elixir.Microservicio2',
+                        'Elixir.Microservicio2.Application',
+                        'Elixir.Microservicio2.Ruta']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Microservicio2.Application',[]}}]}.
