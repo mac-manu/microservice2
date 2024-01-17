@@ -12,16 +12,22 @@ def deps do
   ]
 end
 ```
+
 ## Get dependencies
+```bash
+mix deps.get 
 ```
-mix deps.get ```
 
 ## Run without halt
 
-```mix run --no-halt    ```
+```bash
+mix run --no-halt    
+```
 
 ## to test 
-```curl http://localhost:4000/hello ```
+```bash
+curl http://localhost:4000/hello 
+```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
