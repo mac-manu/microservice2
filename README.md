@@ -1,7 +1,5 @@
 # Microservicio2
 
-**TODO: Add description**
-
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
@@ -14,6 +12,16 @@ def deps do
   ]
 end
 ```
+## Get dependencies
+'''
+mix deps.get '''
+
+## Run without halt
+
+´´´mix run --no-halt    ´´´
+
+## to test 
+´´´curl http://localhost:4000/hello ´´´
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
